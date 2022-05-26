@@ -12,7 +12,6 @@ const parkingLot = {
         <td>${car.make.toUpperCase()}</td>
         <td>${car.plate.toUpperCase()}</td>
         <td>${car.hour}</td>
-        <button class = "remove-button">x</button>
         `;
         (_a = $('#cars')) === null || _a === void 0 ? void 0 : _a.appendChild(ROW);
         $('#make').value = '';

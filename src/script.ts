@@ -21,7 +21,6 @@ const parkingLot =  {
         <td>${car.make.toUpperCase()}</td>
         <td>${car.plate.toUpperCase()}</td>
         <td>${car.hour}</td>
-        <button class = "remove-button">x</button>
         `
         // ROW.querySelector('.remove-button')?.addEventListener('click', (element) => {
 
